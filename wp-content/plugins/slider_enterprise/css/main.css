@@ -104,3 +104,15 @@
 .se-section__content-slider-navigation.se-section__content-slider-navigation--prev {
     transform: rotate(180deg);
 }
+
+@media screen and (max-width: 1200px) {
+    .se-section__item-right {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .se-section__item-top {
+        flex-direction: column;
+    }
+}
